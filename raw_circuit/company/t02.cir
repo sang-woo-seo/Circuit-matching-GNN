@@ -1,0 +1,8 @@
+.SUBCKT t02 A101 B107 C101 D93 E95
+MM0 net52 B107 gnd! vbb! NMOS W=1.4u L=350.00n M=1
+MM12 i_o net93 net52 vbb! NMOS W=1.4u L=350.00n M=1
+MM1 i_o A101 net63 vdd! PMOS W=3.5u L=350.00n M=1
+MM2 net63 B107 vdd! vdd! PMOS W=3.5u L=350.00n M=1
+XI161 E95 i_o C101 D93   ctg Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI307 A101 net93   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+.ENDS

@@ -1,0 +1,17 @@
+.SUBCKT deco3_8m a<2> a<1> a<0> ena pre wl<7> wl<6> wl<5> wl<4> wl<3> wl<2>
++wl<1> wl<0> xvld
+XI51 net33 net31 net25 ena pre wl<7> xvld   deco1m
+XI41 net35 net29 net27 ena pre wl<0> xvld   deco1m
+XI49 net35 net31 net27 ena pre wl<2> xvld   deco1m
+XI50 net35 net31 net25 ena pre wl<6> xvld   deco1m
+XI47 net33 net29 net27 ena pre wl<1> xvld   deco1m
+XI52 net33 net29 net25 ena pre wl<5> xvld   deco1m
+XI48 net33 net31 net27 ena pre wl<3> xvld   deco1m
+XI53 net35 net29 net25 ena pre wl<4> xvld   deco1m
+XI88 net35 net33   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI56 a<2> net27   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI90 a<0> net35   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI57 net27 net25   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI54 net29 net31   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI55 a<1> net29   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+.ENDS

@@ -1,0 +1,9 @@
+.SUBCKT xvald pre xvald
+XI82 net65 net27   delay6
+XI70 net25 net65   delay16
+XI24 net27 net28 net22 net25   nand3 Lp=0.35u Wp=3.5u Ln=0.35u Wn=5u
+XI17 net28 net27 net21   nand2 Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI19 net25 pre net22   nand2 Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI18 net22 net21 net28   nand2 Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI69 net25 xvald   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+.ENDS

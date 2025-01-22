@@ -1,0 +1,12 @@
+.SUBCKT delay10 A Y
+XI47 net011 net39   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI57 net017 Y   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI45 net39 net40   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI44 net40 net023   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI48 net023 net04   inv Ln=2.5u Wn=1u M=1 Lp=2.5u Wp=1u
+XI51 net04 net12   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI52 net9 net029   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI53 net029 net017   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI46 A net011   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+XI50 net12 net9   inv Ln=2u Wn=1u M=1 Lp=2u Wp=1u
+.ENDS

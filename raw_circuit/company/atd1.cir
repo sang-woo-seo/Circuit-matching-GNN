@@ -1,0 +1,10 @@
+.SUBCKT atd1 A Y
+XI58 net32 net22   delay10
+XI59 net38 net24   delay10
+MM1 net38 net22 net39 vbb! NMOS W=1.4u L=350.00n M=1
+MM0 net39 net24 net32 vbb! NMOS W=1.4u L=350.00n M=1
+XI68 A net32   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI62 net20 Y   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI69 net39 net20   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI46 net32 net38   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+.ENDS

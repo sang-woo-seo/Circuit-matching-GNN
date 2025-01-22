@@ -1,0 +1,10 @@
+.SUBCKT nor4 A B C D Y
+MM19 gnd! A Y vbb! NMOS W=Wn L=Ln M=1
+MM18 gnd! B Y vbb! NMOS W=Wn L=Ln M=1
+MM17 gnd! C Y vbb! NMOS W=Wn L=Ln M=1
+MM16 gnd! D Y vbb! NMOS W=Wn L=Ln M=1
+MM8 vdd! D net35 vdd! PMOS W=Wp L=Lp M=1.0
+MM9 net35 C net31 vdd! PMOS W=Wp L=Lp M=1.0
+MM15 net27 A Y vdd! PMOS W=Wp L=Lp M=1.0
+MM10 net31 B net27 vdd! PMOS W=Wp L=Lp M=1.0
+.ENDS

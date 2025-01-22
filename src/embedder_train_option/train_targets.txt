@@ -1,0 +1,1 @@
+ctg inv delay10 nand2 nor3 nand5 nor4 nand3

@@ -1,0 +1,5 @@
+.SUBCKT col_sel1m a0 a1 a2 ena pre wl xvld
+XI32 a0 a1 a2 xvld ena net119  nand5 Lp=0.35u Wp=4u Ln=0.35u Wn=10u
+MM17 wl net119 gnd! vbb! NMOS W=14u L=350.00n M=1
+MM8  wl net119 vddh2! vddh2! PMOS W=28u L=350.00n M=1.0
+.ENDS

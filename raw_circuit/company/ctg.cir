@@ -1,0 +1,4 @@
+.SUBCKT ctg C1 C2 N P
+MM0 C2 N C1 vbb! NMOS W=Wn L=Ln M=1
+MM1 C2 P C1 vdd! PMOS W=Wp L=Lp M=1.0
+.ENDS

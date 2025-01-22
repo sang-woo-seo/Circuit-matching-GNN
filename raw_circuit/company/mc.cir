@@ -1,0 +1,4 @@
+.SUBCKT mc bl hv wl
+MM0 bl wl cs vbb! NMOS W=700.0n L=350.00n M=1
+CC1 cs hv 50f $[CP]
+.ENDS

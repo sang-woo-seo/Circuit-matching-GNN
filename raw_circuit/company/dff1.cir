@@ -1,0 +1,12 @@
+.SUBCKT dff1 clk d q
+XI71 net46 net30   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI80 clk ck_   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI81 ck_ ck   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI75 net30 net42   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI77 q net38   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI76 net34 q   inv Ln=0.35u Wn=7u M=1 Lp=0.35u Wp=14u
+XI73 d net46 ck_ ck   ctg Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI74 net46 net42 ck ck_   ctg Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI78 net34 net38 ck_ ck   ctg Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+XI79 net30 net34 ck ck_   ctg Lp=0.35u Wp=3.5u Ln=0.35u Wn=3.5u
+.ENDS

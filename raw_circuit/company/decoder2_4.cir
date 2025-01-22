@@ -1,0 +1,16 @@
+.SUBCKT decoder2_4 A<1> A<0> ENA X<3> X<2> X<1> X<0>
+XI32 net132 net142 net136 net286   nand3 Lp=0.35u Wp=2.1u Ln=0.35u Wn=2.1u
+XI31 net132 net128 net136 net285   nand3 Lp=0.35u Wp=2.1u Ln=0.35u Wn=2.1u
+XI30 net134 net142 net136 net150   nand3 Lp=0.35u Wp=2.1u Ln=0.35u Wn=2.1u
+XI29 net134 net128 net136 net156   nand3 Lp=0.35u Wp=2.1u Ln=0.35u Wn=2.1u
+XI93 ENA net144   inv Ln=0.35u Wn=2.1u M=1 Lp=0.35u Wp=4.2u
+XI56 net156 X<3>   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI57 net150 X<2>   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI58 net285 X<1>   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI59 net286 X<0>   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI42 net144 net136   inv Ln=0.35u Wn=2.1u M=3 Lp=0.35u Wp=4.2u
+XI41 A<1> net132   inv Ln=0.35u Wn=2.1u M=1 Lp=0.35u Wp=3.2u
+XI40 net132 net134   inv Ln=0.35u Wn=2.1u M=1 Lp=0.35u Wp=3.2u
+XI39 net142 net128   inv Ln=0.35u Wn=2.1u M=1 Lp=0.35u Wp=3.2u
+XI38 A<0> net142   inv Ln=0.35u Wn=2.1u M=1 Lp=0.35u Wp=3.2u
+.ENDS

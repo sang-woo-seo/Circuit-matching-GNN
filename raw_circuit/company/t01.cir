@@ -1,0 +1,4 @@
+.SUBCKT t01 A Y
+XI001 A mid   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+XI002 mid Y   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
+.ENDS

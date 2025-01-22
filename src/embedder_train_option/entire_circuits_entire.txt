@@ -1,0 +1,3 @@
+ctg inv main_sense precharge io nand2 nor3 nand5 nor4 delay10 atd1 atd18m col_sel1m col_sel3_8m decoder4_16 col_sel7_128 nand3 decoder2_4 col_sel9_512 deco1m deco3_8m deco7_128 deco9_512 delay4 rl_sel delay6 sen_ena delay16 xvald ctrl256kbm
+
+

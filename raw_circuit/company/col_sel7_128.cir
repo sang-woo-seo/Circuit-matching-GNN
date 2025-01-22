@@ -1,0 +1,57 @@
+.SUBCKT col_sel7_128 a<6> a<5> a<4> a<3> a<2> a<1> a<0> cs<127> cs<126>
++cs<125> cs<124> cs<123> cs<122> cs<121> cs<120> cs<119> cs<118> cs<117>
++cs<116> cs<115> cs<114> cs<113> cs<112> cs<111> cs<110> cs<109> cs<108>
++cs<107> cs<106> cs<105> cs<104> cs<103> cs<102> cs<101> cs<100> cs<99> cs<98>
++cs<97> cs<96> cs<95> cs<94> cs<93> cs<92> cs<91> cs<90> cs<89> cs<88> cs<87>
++cs<86> cs<85> cs<84> cs<83> cs<82> cs<81> cs<80> cs<79> cs<78> cs<77> cs<76>
++cs<75> cs<74> cs<73> cs<72> cs<71> cs<70> cs<69> cs<68> cs<67> cs<66> cs<65>
++cs<64> cs<63> cs<62> cs<61> cs<60> cs<59> cs<58> cs<57> cs<56> cs<55> cs<54>
++cs<53> cs<52> cs<51> cs<50> cs<49> cs<48> cs<47> cs<46> cs<45> cs<44> cs<43>
++cs<42> cs<41> cs<40> cs<39> cs<38> cs<37> cs<36> cs<35> cs<34> cs<33> cs<32>
++cs<31> cs<30> cs<29> cs<28> cs<27> cs<26> cs<25> cs<24> cs<23> cs<22> cs<21>
++cs<20> cs<19> cs<18> cs<17> cs<16> cs<15> cs<14> cs<13> cs<12> cs<11> cs<10>
++cs<9> cs<8> cs<7> cs<6> cs<5> cs<4> cs<3> cs<2> cs<1> cs<0> ena pre xvld
+XI72 a<2> a<1> a<0> cs<127> cs<126> cs<125> cs<124> cs<123> cs<122> cs<121>
++cs<120> net<15> net201 net213   col_sel3_8m
+XI73 a<2> a<1> a<0> cs<95> cs<94> cs<93> cs<92> cs<91> cs<90> cs<89> cs<88>
++net<11> net201 net213   col_sel3_8m
+XI74 a<2> a<1> a<0> cs<87> cs<86> cs<85> cs<84> cs<83> cs<82> cs<81> cs<80>
++net<10> net201 net213   col_sel3_8m
+XI75 a<2> a<1> a<0> cs<79> cs<78> cs<77> cs<76> cs<75> cs<74> cs<73> cs<72>
++net<9> net201 net213   col_sel3_8m
+XI76 a<2> a<1> a<0> cs<103> cs<102> cs<101> cs<100> cs<99> cs<98> cs<97>
++cs<96> net<12> net201 net213   col_sel3_8m
+XI77 a<2> a<1> a<0> cs<119> cs<118> cs<117> cs<116> cs<115> cs<114> cs<113>
++cs<112> net<14> net201 net213   col_sel3_8m
+XI78 a<2> a<1> a<0> cs<111> cs<110> cs<109> cs<108> cs<107> cs<106> cs<105>
++cs<104> net<13> net201 net213   col_sel3_8m
+XI71 a<2> a<1> a<0> cs<71> cs<70> cs<69> cs<68> cs<67> cs<66> cs<65> cs<64>
++net<8> net201 net213   col_sel3_8m
+XI63 a<2> a<1> a<0> cs<7> cs<6> cs<5> cs<4> cs<3> cs<2> cs<1> cs<0> net<0>
++net110 net108   col_sel3_8m
+XI70 a<2> a<1> a<0> cs<63> cs<62> cs<61> cs<60> cs<59> cs<58> cs<57> cs<56>
++net<7> net110 net108   col_sel3_8m
+XI66 a<2> a<1> a<0> cs<31> cs<30> cs<29> cs<28> cs<27> cs<26> cs<25> cs<24>
++net<3> net110 net108   col_sel3_8m
+XI65 a<2> a<1> a<0> cs<23> cs<22> cs<21> cs<20> cs<19> cs<18> cs<17> cs<16>
++net<2> net110 net108   col_sel3_8m
+XI64 a<2> a<1> a<0> cs<15> cs<14> cs<13> cs<12> cs<11> cs<10> cs<9> cs<8>
++net<1> net110 net108   col_sel3_8m
+XI67 a<2> a<1> a<0> cs<39> cs<38> cs<37> cs<36> cs<35> cs<34> cs<33> cs<32>
++net<4> net110 net108   col_sel3_8m
+XI69 a<2> a<1> a<0> cs<55> cs<54> cs<53> cs<52> cs<51> cs<50> cs<49> cs<48>
++net<6> net110 net108   col_sel3_8m
+XI68 a<2> a<1> a<0> cs<47> cs<46> cs<45> cs<44> cs<43> cs<42> cs<41> cs<40>
++net<5> net110 net108   col_sel3_8m
+XI61 a<6> a<5> a<4> a<3> ena net<15> net<14> net<13> net<12> net<11> net<10>
++net<9> net<8> net<7> net<6> net<5> net<4> net<3> net<2> net<1> net<0>  
++decoder4_16
+XI81 pre net199   inv Ln=0.35u Wn=8u M=27 Lp=0.35u Wp=16u
+XI84 xvld net211   inv Ln=0.35u Wn=10u M=6 Lp=0.35u Wp=20u
+XI55 pre net112   inv Ln=0.35u Wn=8u M=27 Lp=0.35u Wp=16u
+XI54 net112 net110   inv Ln=0.35u Wn=8u M=81 Lp=0.35u Wp=16u
+XI82 net199 net201   inv Ln=0.35u Wn=8u M=81 Lp=0.35u Wp=16u
+XI79 net106 net108   inv Ln=0.35u Wn=10u M=18 Lp=0.35u Wp=20u
+XI80 xvld net106   inv Ln=0.35u Wn=10u M=6 Lp=0.35u Wp=20u
+XI83 net211 net213   inv Ln=0.35u Wn=10u M=18 Lp=0.35u Wp=20u
+.ENDS
