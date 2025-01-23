@@ -1,7 +1,7 @@
 # Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction
 
 ## Model Architecture 
-
+![architecture2_page-0001](./Architecture.jpg)
 
 ## abstract
 Subgraph matching plays an important role in electronic design automation (EDA) and circuit analysis. 
