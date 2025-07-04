@@ -1,5 +1,6 @@
 # Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction
 
+The official source code for [ICCAD25] Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction.
 ## Abstract
 Subgraph matching plays an important role in electronic design automation (EDA) and circuit analysis. 
 Traditional rule-based methods have limitations in generalizing to arbitrary target circuits. Furthermore, node-to-node matching approaches tend to be computationally inefficient, particularly for large-scale circuits.
