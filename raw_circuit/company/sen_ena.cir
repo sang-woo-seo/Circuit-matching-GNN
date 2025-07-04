@@ -1,9 +1,0 @@
-.SUBCKT sen_ena n_ena p_ena xvald
-XI70 xvald net25   delay6
-XI81 net35 p_ena   inv Ln=0.35u Wn=10u M=9 Lp=0.35u Wp=20u
-XI69 net25 net18   inv Ln=0.35u Wn=4u M=1 Lp=0.35u Wp=8u
-XI82 net29 n_ena   inv Ln=0.35u Wn=10u M=9 Lp=0.35u Wp=20u
-XI83 net64 net29   inv Ln=0.35u Wn=10u M=3 Lp=0.35u Wp=20u
-XI84 net18 net64   inv Ln=0.35u Wn=10u M=1 Lp=0.35u Wp=20u
-XI80 net18 net35   inv Ln=0.35u Wn=10u M=2 Lp=0.35u Wp=20u
-.ENDS

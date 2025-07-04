@@ -1,5 +1,0 @@
-.SUBCKT precharge bl bl_ pre
-MM4 vddh! pre bl vbb! NMOS W=1.4u L=350.00n M=1
-MM6 vddh! pre bl_ vbb! NMOS W=1.4u L=350.00n M=1
-MM3 bl pre bl_ vbb! NMOS W=1.4u L=350.00n M=1
-.ENDS

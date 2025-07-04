@@ -1,4 +1,0 @@
-.SUBCKT inv A Y
-MM1 Y A vdd! vdd! PMOS W=Wp L=Lp M=M
-MM12 Y A gnd! vbb! NMOS W=Wn L=Ln M=M
-.ENDS

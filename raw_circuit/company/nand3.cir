@@ -1,8 +1,0 @@
-.SUBCKT nand3 A B C Y
-MM1 net60 C gnd! vbb! NMOS W=Wn L=Ln M=1
-MM14 net28 B net60 vbb! NMOS W=Wn L=Ln M=1
-MM13 Y A net28 vbb! NMOS W=Wn L=Ln M=1
-MM0 Y C vdd! vdd! PMOS W=Wp L=Lp M=1.0
-MM12 Y A vdd! vdd! PMOS W=Wp L=Lp M=1.0
-MM11 Y B vdd! vdd! PMOS W=Wp L=Lp M=1.0
-.ENDS
